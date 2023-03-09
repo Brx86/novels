@@ -20,7 +20,7 @@ def 下载文章(title, url):
     请求结果 = httpx.get(url)
     网页内容 = etree.HTML(请求结果.text.replace("&nbsp;", " "), parser=None)
     文章内容 = 网页内容.xpath('//div[@class="text"]/p/text()')
-    with open(f"README.md", "a") as f:
+    with open(f"小说.md", "a") as f:
         f.write(f"## {title}\n\n")
         for 段落 in 文章内容:
             f.write(f"{段落}\n\n")
