@@ -16,12 +16,12 @@ def 获取文章列表():
     return 全部文章列表
 
 
-def 下载文章(title, url):
-    请求结果 = httpx.get(url)
+def 下载文章(标题, 链接):
+    请求结果 = httpx.get(链接)
     网页内容 = etree.HTML(请求结果.text.replace("&nbsp;", " "), parser=None)
     文章内容 = 网页内容.xpath('//div[@class="text"]/p/text()')
     with open(f"小说.md", "a") as f:
-        f.write(f"## {title}\n\n")
+        f.write(f"## {标题}\n\n")
         for 段落 in 文章内容:
             f.write(f"{段落}\n\n")
 
