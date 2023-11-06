@@ -4,4 +4,4 @@
 > 短篇小说合集
 
 [Lofter](https://futaningmengcha991.lofter.com/)
-[开始使用](?id=_28)
+[开始阅读](?id=_28)
