@@ -1,7 +1,7 @@
 <!-- ![logo](requests-html-logo.svg).element height="10px" width="10px" -->
 
-# 北望司
-> 短篇小说合集
+# kanade_346
+> 假如爱音患有智力缺陷
 
-[Lofter](https://futaningmengcha991.lofter.com/)
-[开始使用](?id=%e9%98%bf%e4%bc%8a)
+[Lofter](https://swarmgymbag.lofter.com/)
+[开始阅读](?id=_1-%e4%b8%ba%e4%bb%80%e4%b9%88%e6%98%af%e6%88%91%ef%bc%9f)
